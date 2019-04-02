@@ -7,14 +7,14 @@ public class Lesson2_36 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 36
+		//Г§Г Г¤Г Г­ГЁГҐ 36
 		
-		/*System.out.println("Введите четырехзначное число ");
+		/*System.out.println("Р’РІРµРґРёС‚Рµ С‡РµС‚С‹СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ ");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt(); */
         int a = 2465;
-        int mult1 = 1; //четные
-        int mult2 = 1; //нечетные
+        int mult1 = 1; //С‡РµС‚РЅС‹Рµ
+        int mult2 = 1; //РЅРµС‡РµС‚РЅС‹Рµ
         
         for (int i = 1; i <= 4; i++) {
            
@@ -41,12 +41,12 @@ public class Lesson2_36 {
         
         if (a5 != 0) {
         double a3 = a4 / a5;
-        System.out.println("частное произведений " + a3);
+        System.out.println("С‡Р°СЃС‚РЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёР№ " + a3);
         }
         if (a5 == 0) {
-        System.out.println("частное произведений не является числом");
+        System.out.println("С‡Р°СЃС‚РЅРѕРµ РїСЂРѕРёР·РІРµРґРµРЅРёР№ РЅРµ СЏРІР»СЏРµС‚СЃСЏ С‡РёСЃР»РѕРј");
             }
         }
 
 }
-//не учитывает отсутствие нечетных или четных цифр
+//Г­ГҐ ГіГ·ГЁГІГ»ГўГ ГҐГІ Г®ГІГ±ГіГІГ±ГІГўГЁГҐ Г­ГҐГ·ГҐГІГ­Г»Гµ ГЁГ«ГЁ Г·ГҐГІГ­Г»Гµ Г¶ГЁГґГ°
