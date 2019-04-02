@@ -5,7 +5,7 @@ public class Lesson2_38 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 38 а
+		//38 Р°
 		double x1 = -2.0;
 		double y1 = 2.0;
 		if (x1>=0.0 && y1>=0.0 && (x1-y1)<=4.0) {
@@ -17,9 +17,9 @@ public class Lesson2_38 {
 		else {
 			System.out.println("task a - false");
 		}
-		//выводит и true и false
 		
-		//задание 38 b
+		
+		//38 b
 		double x2 = 0.0;
 		double y2 = -5.0;
 		if (x2>=-2.0 && x2<=2.0 && y2>=0.0 && y2<=4.0) {
@@ -33,7 +33,7 @@ public class Lesson2_38 {
 		}
 		
 		
-		//задание 38 c
+		//38 c
 		double x3 = 1.0;
 		double y3 = -1.0;
 		double r = Math.sqrt(x3*x3 + y3*y3);
@@ -47,7 +47,7 @@ public class Lesson2_38 {
 		else {
 			System.out.println("task c3 - false");
 		}
-		//выводит и true и false
+		
 	}
 
 }
