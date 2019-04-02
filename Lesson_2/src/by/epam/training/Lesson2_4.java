@@ -3,7 +3,7 @@ package by.epam.training;
 public class Lesson2_4 {
 	public static void main(String[] args) {
 		
-		//задание 4
+		
 		double a, b, c, z;
 		a = 4;
 		b = 5;
