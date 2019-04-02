@@ -7,10 +7,9 @@ public class Lesson2_15 {
 
 		double x;
 		
-		//задание 14
 		for (int i = 1; i <= 4; i++) {
 			x = Math.pow(Math.PI, i);
-			System.out.println("число Пи в " + i + " степени равно " + x);
+			System.out.println("С‡РёСЃР»Рѕ РџРё РІ " + i + " СЃС‚РµРїРµРЅРё СЂР°РІРЅРѕ " + x);
 		}
 	}
 
