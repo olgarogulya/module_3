@@ -5,10 +5,10 @@ public class Lesson2_23 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 23
-		double R, r; //радиусы малого и большого круга
-		double s, S; //площади малого и большого круга
-		double Sk; //площадь кольца
+		
+		double R, r; //СЂР°РґРёСѓСЃС‹ РјР°Р»РѕРіРѕ Рё Р±РѕР»СЊС€РѕРіРѕ РєСЂСѓРіР°
+		double s, S; //РїР»РѕС‰Р°РґРё РјР°Р»РѕРіРѕ Рё Р±РѕР»СЊС€РѕРіРѕ РєСЂСѓРіР°
+		double Sk; //РїР»РѕС‰Р°РґСЊ РєРѕР»СЊС†Р°
 		
 		R = 12;
 		r = 4;
@@ -17,10 +17,10 @@ public class Lesson2_23 {
 			s = Math.PI * r * r;
 			S = Math.PI * R * R;
 			Sk = S - s;
-			System.out.println("площадь кольца равна " + Sk);
+			System.out.println("РїР»РѕС‰Р°РґСЊ РєРѕР»СЊС†Р° " + Sk);
 		}
 		else {
-			System.out.println("R должен быть больше r");
+			System.out.println("R РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ Р±РѕР»СЊС€Рµ r");
 		}
 	}
 
