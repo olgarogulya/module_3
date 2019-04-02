@@ -5,10 +5,10 @@ public class Lesson2_10 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//задание 10
+		//task 10
 		double x, y, z, z1;
 		double sinX, sinY, cosX, cosY, tgXY;
-		x = 90; // градусы
+		x = 90;
 		y = 60;
 				
 		sinX = Math.sin(x * Math.PI / 180);
