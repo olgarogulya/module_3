@@ -5,7 +5,6 @@ public class Lesson2_25 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//задание 25
 		//a*x*x+b*x+c=0
 		
 		double a, b, c, x1, x2, x, d;
@@ -27,7 +26,7 @@ public class Lesson2_25 {
 			System.out.println(x);
 		}
 		if (a == 0 || d < 0) {
-			System.out.println("условия не выполняются");
+			System.out.println("СѓСЃР»РѕРІРёСЏ РЅРµ РІС‹РїРѕР»РЅСЏСЋС‚СЃСЏ");
 		}
 
 	}
