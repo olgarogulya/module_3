@@ -5,7 +5,7 @@ public class Lesson2_11 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//task 11
+		
 		double a, b; 
 		double c;
 		double p; 
