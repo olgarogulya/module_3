@@ -5,7 +5,7 @@ public class Lesson2_27 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 27
+		
 		int a, b, c;
 		a = 2;
 		b = 2;
