@@ -5,10 +5,10 @@ public class Lesson2_29 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 29
-		double x, y, z; //углы в радианах
-		double x1, y1, z1; //углы в градусах
-		double a, b, c; //стороны
+		
+		double x, y, z; //СѓРіР»С‹ РІ СЂР°РґРёР°РЅР°С…
+		double x1, y1, z1; //СѓРіР»С‹ РІ РіСЂР°РґСѓСЃР°С…
+		double a, b, c; //СЃС‚РѕСЂРѕРЅС‹
 		double cosX, cosY, cosZ;
 		a = 3.0;
 		b = 4.0;
@@ -17,23 +17,23 @@ public class Lesson2_29 {
 		cosX = (a * a + c * c - b * b) / (2 * a * c);
 		System.out.println("cosX " + cosX);
 		x = Math.acos(cosX);
-		System.out.println("x " + x + " радиан");
+		System.out.println("x " + x + " СЂР°РґРёР°РЅ");
 		x1 = x * 180 / Math.PI;
-		System.out.println("x " + x1 + " градусов");
+		System.out.println("x " + x1 + " РіСЂР°РґСѓСЃРѕРІ");
 		
 		cosY = (a*a + b*b - c*c) / (2*a*b);
 		System.out.println("cosY " + cosY);
 		y = Math.acos(cosY);
-		System.out.println("y " + y + " радиан");
+		System.out.println("y " + y + " СЂР°РґРёР°РЅ");
 		y1 = y * 180 / Math.PI;
-		System.out.println("y " + y1 + " градусов");
+		System.out.println("y " + y1 + " РіСЂР°РґСѓСЃРѕРІ");
 		
 		cosZ = (b*b + c*c - a*a) / (2*c*b);
 		System.out.println("cosZ " + cosZ);
 		z = Math.acos(cosZ);
-		System.out.println("z " + z + " радиан");
+		System.out.println("z " + z + " СЂР°РґРёР°РЅ");
 		z1 = z * 180 / Math.PI;
-		System.out.println("z " + z1 + " градусов");
+		System.out.println("z " + z1 + " РіСЂР°РґСѓСЃРѕРІ");
 						
 		//System.out.println(x1 + y1 + z1);
 	}
