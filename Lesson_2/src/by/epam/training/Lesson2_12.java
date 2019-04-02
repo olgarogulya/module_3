@@ -5,8 +5,7 @@ public class Lesson2_12 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//задание 12
-		double x1, y1, x2, y2; //координаты
+		double x1, y1, x2, y2; 
 		double x, y, z;
 		
 		x1 = 3; y1 = 4;
