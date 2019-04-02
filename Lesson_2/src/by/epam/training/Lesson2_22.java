@@ -5,16 +5,16 @@ public class Lesson2_22 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 22
-		double T; //длительность в секундах
+		
+		double T; //РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ РІ СЃРµРєСѓРЅРґР°С…
 		T = 56311;
 		if (T<60) {
 			int ss = (int)T;
 			if (ss<10) {
-				System.out.println("00ч" + " " + "00мин" + " " + "0" + ss + "с");	
+				System.out.println("00С‡" + " " + "00РјРёРЅ" + " " + "0" + ss + "СЃ");	
 			}
 			if (ss>=10) {
-				System.out.println("00ч" + " " + "00мин" + " " + ss + "с");
+				System.out.println("00С‡" + " " + "00РјРёРЅ" + " " + ss + "СЃ");
 			}
 		
 		}
@@ -25,7 +25,7 @@ public class Lesson2_22 {
 			double s = T - mm * 60;
 			int ss = (int)s;
 			//System.out.println(ss);
-			System.out.println("00ч" + " " + mm + "мин" + " " + ss + "с");
+			System.out.println("00С‡" + " " + mm + "РјРёРЅ" + " " + ss + "СЃ");
 		}
 		if (T>=3600){
 			double h = T / 3600.0;
@@ -37,9 +37,8 @@ public class Lesson2_22 {
 			double s = T - (hh * 60 + mm) * 60;
 			int ss = (int)s;
 			//System.out.println(ss);
-			System.out.println(hh + "ч" + " " + mm + "мин" + " " + ss + "с");
+			System.out.println(hh + "С‡" + " " + mm + "РјРёРЅ" + " " + ss + "СЃ");
 			}
 	}
 
 }
-//не выводит в двухзначном формате, если значения меньше 10
