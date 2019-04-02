@@ -5,7 +5,7 @@ public class Lesson2_21 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//задание 21
+		
 		double R;
 		R = 987.654;
 		
