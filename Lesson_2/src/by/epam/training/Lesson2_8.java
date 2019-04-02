@@ -5,7 +5,7 @@ public class Lesson2_8 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//задание 8
+		
 		double a, b, c, d;
 		a = 2;
 		b = 144; 
