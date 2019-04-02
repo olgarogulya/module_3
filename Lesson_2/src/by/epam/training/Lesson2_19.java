@@ -5,13 +5,12 @@ public class Lesson2_19 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//задание 19
-		double a; //сторона треугольника
-		double S; //площадь
-		double h; //высота
-		double r; //радиус вписанной окружности
-		double R; //радиус описанной окружности
-		double p; //полупериметр
+		double a; 
+		double S; 
+		double h; 
+		double r; 
+		double R; 
+		double p; 
 		
 		a = 8.0;
 		S = (Math.sqrt(3.0) / 4.0) * a * a;
@@ -20,11 +19,11 @@ public class Lesson2_19 {
 		r = Math.sqrt((p - a) * (p - a) * (p - a) / p);
 		R = a / Math.sqrt(3.0);
 		
-		//System.out.println("полупериметр " + p);
-		System.out.println("площадь " + S);
-		System.out.println("высота " + h);
-		System.out.println("радиус вписанной окружности " + r);
-		System.out.println("радиус описанной окружности " + R);
+		//System.out.println("РїРѕР»СѓРїРµСЂРёРјРµС‚СЂ " + p);
+		System.out.println("РїР»РѕС‰Р°РґСЊ " + S);
+		System.out.println("РІС‹СЃРѕС‚Р° " + h);
+		System.out.println("СЂР°РґРёСѓСЃ РІРїРёСЃР°РЅРЅРѕР№ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё " + r);
+		System.out.println("СЂР°РґРёСѓСЃ РѕРїРёСЃР°РЅРЅРѕР№ РѕРєСЂСѓР¶РЅРѕСЃС‚Рё " + R);
 
 	}
 
