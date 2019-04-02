@@ -5,14 +5,14 @@ public class Lesson2_26 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 26
-		double a, b, y, s; //сторона a, сторона b, угол, площадь
+		//Г§Г Г¤Г Г­ГЁГҐ 26
+		double a, b, y, s; 
 		a = 5.0;
 		b = 7.0;
-		y = 30; //градусов
+		y = 30; //СѓРіРѕР» РІ РіСЂР°РґСѓСЃР°С…
 		
 		s = a * b * Math.sin(y * Math.PI / 180) / 2;
-		System.out.println("площадь треугольника " + s);
+		System.out.println("РїР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° " + s);
 	}
 
 }
