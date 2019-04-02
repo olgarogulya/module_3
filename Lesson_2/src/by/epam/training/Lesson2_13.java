@@ -5,13 +5,13 @@ public class Lesson2_13 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//задание 13
-				double x1, y1; //координаты a
-				double x2, y2; //координаты b
-				double x3, y3; //координаты c
-				double ab, bc, ac; //стороны треугольника
-				double P, p; //периметр и полупериметр
-				double S; //площадь
+		
+				double x1, y1; //a
+				double x2, y2; //b
+				double x3, y3; //c
+				double ab, bc, ac; 
+				double P, p; 
+				double S; 
 				
 				x1 = 3; y1 = 4;
 				x2 = 6; y2 = 12;
@@ -25,8 +25,8 @@ public class Lesson2_13 {
 				p = P / 2;
 				S = Math.sqrt(P * (p - ab) * (p - bc) * (p - ac));
 				
-				System.out.println("периметр треугольника равен " + P);
-				System.out.println("площадь треугольника равна " + S);
+				System.out.println("РїРµСЂРёРјРµС‚СЂ " + P);
+				System.out.println("РїР»РѕС‰Р°РґСЊ " + S);
 	}
 
 }
