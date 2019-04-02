@@ -5,10 +5,10 @@ public class Lesson2_32 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
        
-		//задание 32
+		//Г§Г Г¤Г Г­ГЁГҐ 32
 		
-		double m, n, k; //текущее показание времени
-		double p, q, r; //на сколько увеличится время 
+		double m, n, k; //С‚РµРєСѓС‰РµРµ РїРѕРєР°Р·Р°РЅРёРµ РІСЂРµРјРµРЅРё
+		double p, q, r; //Р±СѓРґСѓС‰РµРµ РїРѕРєР°Р·Р°РЅРёРµ РІСЂРµРјРµРЅРё 
 		
 		m = 11.0;
 		n = 15.0;
@@ -20,12 +20,12 @@ public class Lesson2_32 {
 		
 		double t = (m+p)*60*60 + (n+q)*60 + k + r;
 		//System.out.println(t);
-		double T; //длительность в секундах
+		double T; //РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ РІ СЃРµРєСѓРЅРґР°С…
 		T = t;
 		
 		if (T<60) {
 			int ss = (int)T;
-			System.out.println("00ч" + " " + "00мин" + " " + ss + "с");
+			System.out.println("00С‡" + " " + "00РјРёРЅ" + " " + ss + "СЃ");
 		}
 		
 		if (T>=60 && T<3600){
@@ -35,7 +35,7 @@ public class Lesson2_32 {
 			double s = T - mm * 60;
 			int ss = (int)s;
 			//System.out.println(ss);
-			System.out.println("00ч" + " " + mm + "мин" + " " + ss + "с");
+			System.out.println("00С‡" + " " + mm + "РјРёРЅ" + " " + ss + "СЃ");
 		}
 		
 		if (T>=3600 && T<86400){
@@ -48,7 +48,7 @@ public class Lesson2_32 {
 			double s = T - (hh * 60 + mm) * 60;
 			int ss = (int)s;
 			//System.out.println(ss);
-			System.out.println(hh + "ч" + " " + mm + "мин" + " " + ss + "с");
+			System.out.println(hh + "С‡" + " " + mm + "РјРёРЅ" + " " + ss + "СЃ");
 			}
 		if (T>=86400){
 			double d = T / 86400.0;
@@ -63,7 +63,7 @@ public class Lesson2_32 {
 			double s = T - dd * 24 * 60 * 60 - hh * 60 * 60 - mm * 60;
 			int ss = (int)s;
 			//System.out.println(ss);
-			System.out.println(hh + "ч" + " " + mm + "мин" + " " + ss + "с");
+			System.out.println(hh + "С‡" + " " + mm + "РјРёРЅ" + " " + ss + "СЃ");
 			}
 		}
 	}
